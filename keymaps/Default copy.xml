@@ -1,26 +1,16 @@
-<keymap version="1" name="Default copy" parent="$default">
-  <action id="$Copy">
-    <keyboard-shortcut first-keystroke="ctrl c" />
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta ampersand" />
   </action>
-  <action id="$Cut">
-    <keyboard-shortcut first-keystroke="ctrl x" />
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
-  <action id="$Redo">
-    <keyboard-shortcut first-keystroke="ctrl y" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
-  <action id="$Undo">
-    <keyboard-shortcut first-keystroke="ctrl z" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
-  <action id="Console.TableResult.DeleteRows">
-    <keyboard-shortcut first-keystroke="shift ctrl y" />
-  </action>
-  <action id="Editor Redo">
-    <keyboard-shortcut first-keystroke="ctrl y" />
-  </action>
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="shift ctrl y" />
-  </action>
-  <action id="PhpDetectPsroRoots">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
+  <action id="Vcs.UpdateProject" />
+  <action id="linessorter.sort" />
 </keymap>
